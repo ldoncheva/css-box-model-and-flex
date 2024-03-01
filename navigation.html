@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kriko Nav</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 20px;
+      }
+
+      .nav-item {
+        text-align: center;
+      }
+
+      .nav-item p {
+        margin: 5px 0 0;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .nav-item .icon {
+        font-size: 24px;
+      }
+
+      .nav-item .hint {
+        top: calc(100% + 5px);
+        left: 50%;
+        font-size: 14px;
+        color: #888;
+      }
+
+      .arrow-down {
+        margin-top: 5px;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-item">
+        <div class="icon">🔍</div>
+        <p>Filter</p>
+        <div class="arrow-down">▼</div>
+      </div>
+      <div class="nav-item">
+        <div class="icon">🔣</div>
+        <div class="hint">Alle</div>
+        <p>Grupierung</p>
+        <div class="arrow-down">▼</div>
+      </div>
+      <div class="nav-item">
+        <div class="icon">🌤️</div>
+        <div class="hint">inactiv</div>
+        <p>Witterungs</p>
+        <p>bereinigung</p>
+        <div class="arrow-down">▼</div>
+      </div>
+      <div class="nav-item">
+        <div class="icon">🔄</div>
+        <div class="hint">inactiv</div>
+        <p>Harmonisierung</p>
+        <div class="arrow-down">▼</div>
+      </div>
+      <div class="nav-item">
+        <div class="icon">🔗</div>
+        <p>Referenz</p>
+        <div class="arrow-down">▼</div>
+      </div>
+    </div>
+  </body>
+</html>
